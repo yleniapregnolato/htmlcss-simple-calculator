@@ -22,53 +22,47 @@ header {
 /* /header */
 
 /* main */
-  .result {
+.result {
     background-color: black;
     color: rgba(9, 210, 151, 1);
     font-family: "seven segment";
     font-size: 40px;
     text-align: right;
     padding: 20px;
-    
-  }
-  
-  .item {
-    color: rgba(9, 210, 151, 1);
-    font-family: "seven segment";
-    font-size: 30px;
-    margin: 15px;
-  }
-.column {
-  display: flex;
-  flex-direction: column;
-  width: calc(100%/2);
-  
-  /* width: 50px;
-  height: 80px; */
 }
-.col {
-  width: 60px;
-  height: 50px;
+.keyboard {
+  display: flex;
+  width: 100%;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.operation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+}
+.key {
+  width: calc(100%/3 );
   font-size: 20px;
   background-color: rgba(187, 187, 187, 1);
   border: 0px;
   border-radius: 5px;
-  
-  
+  width: calc(100%/3);
 }
-.special{
-  width: calc(100%/2)
+.zero {
+  width: calc(100%/2);
 }
-.operation {
-  width: 50px;
-  height: 40px;
-  font-size: 15;
+.simbol {
+  width: 100%;
   background-color: rgba(119, 168, 176, 1);
   color: white;
   border: 0px;
 }
-.orange {
+.special {
   background-color: rgba(255, 159, 10, 1);
   color: white;
 }
-/* /main */
